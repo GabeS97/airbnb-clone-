@@ -3,24 +3,21 @@ import React from 'react'
 
 function Header() {
     return (
-        <header className='sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10'>
-            {/* LeftSection */}
-            <div className='relative flex items-center h-10 cursor-pointer my-auto'>
-                <Image
-                    src='https://links.papareact.com/qd3'
-                    layout='fill'
-                    objectFit='contain'
-                    objectPosition='left'
+        <header className='sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5'>
+            {/* Left */}
+            <div className='relative flex items-center h-10 cursor-pointer my-auto '>
+                <Image src='https://links.papareact.com/qd3'
+                layout='fill' // use max space of the container
+                objectFit='contain' // sets how Image should be resized to fit container
+                objectPosition='left'
                 />
             </div>
 
-            {/* MiddleSection */}
-            <div>
-            </div>
+            {/* Middle */}
+            <div></div>
 
-            {/* RightSection */}
-            <div>
-            </div>
+            {/* Right */}
+            <div></div>
         </header>
     )
 }
