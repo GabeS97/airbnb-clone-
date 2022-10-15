@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
-
+import Banner from '../components/Banner'
 const Home = () => {
   return (
     <div>
@@ -11,8 +11,9 @@ const Home = () => {
       </Head>
 
       {/* Header */}
-      <Header/>
+      <Header />
       {/* Banner */}
+      <Banner />
 
     </div>
   )
